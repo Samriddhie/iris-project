@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+}
+.page1 {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(6, 58, 48);
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.page2 {
+  height: 100vh;
+  width: 100vw;
+  background-color: darkcyan;
+}
+.page3 {
+  height: 75vh;
+  width: 100vw;
+  
+  display: flex;
+  flex-direction: row;
+}
+.navbar h6 {
+  font-size: 25px;
+}
+.navbar {
+  justify-content: space-between;
+  display: flex;
+  padding: 2vw 3vw;
+}
+.icons {
+  width: 350px;
+}
+.icons ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.icons i {
+  height: 25px;
+}
+.content {
+  height: 45%;
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  justify-content: space-between;
+}
+.picture {
+  object-fit: contain;
+  padding-bottom: 120px;
+  height: 65vh;
+  width: 65vw;
+  display: flex;
+  justify-content: flex-end;
+}
+.allpart {
+  display: flex;
+  justify-content: space-between;
+  padding: 5vw 8vw;
+  align-items: center;
+}
+.content h1 {
+  font-size: 70px;
+}
+.content button {
+  margin-top: 15px;
+  width: 250px;
+  font-size: 15px;
+  background-color: rgb(6, 58, 48);
+  border-radius: 10px;
+  height: 35px;
+  border: 1px solid white;
+  color: white;
+}
+.picture img {
+  object-fit: contain;
+  height: 65vh;
+}
+.page2 {
+  background-color: rgb(249, 230, 207);
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+}
+.page2 p {
+  margin-top: 10px;
+}
+.box {
+  height: 500px;
+  width: 850px;
+  background-color: rgb(93, 192, 159);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.threepic1 {
+  height: 450px;
+  width: 340px;
+  flex-direction: column;
+  font-size: 25px;
+  z-index: 1;
+  object-fit: fill;
+  display: flex;
+}
+.threepic2 {
+  height: 450px;
+  width: 340px;
+  justify-content: center;
+  display: flex;
+  z-index: 1;
+  object-fit: cover;
+  flex-direction: column;
+  font-size: 25px;
+}
+.threepic3 {
+  height: 450px;
+  width: 340px;
+  flex-direction: column;
+  font-size: 25px;
+  z-index: 1;
+  display: flex;
+  object-fit: cover;
+}
+.bigbox {
+  height: 600px;
+  width: 900px;
+  
+  display: flex;
+}
+.content2 {
+  padding-top: 7vw;
+  padding-left: 9vw;
+  background-color: rgb(229, 200, 165);
+  display: flex;
+  width: 550px;
+  flex-direction: column;
+  
+}
+.content2 h2 {
+  margin-bottom: 50px;
+}
+.content2 p {
+  font-size: 20px;
+}
+.content2 button {
+  width: 120px;
+  color: rgb(222, 97, 97);
+  border: 2px solid rgb(222, 97, 97);
+  padding: 10px;
+  margin-top: 25px;
+  border-radius: 25px;
+}
